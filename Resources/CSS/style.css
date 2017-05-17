@@ -1,0 +1,179 @@
+body {
+margin: 0px;
+border: 2px solid gray;
+}
+
+.header {
+height: 64px;
+display: block;
+margin: 0 auto;
+width: 100%;
+}
+.logo {
+padding-left: 24px;
+display: inline-block;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+.navigation {
+float: right;
+display: inline-block;
+vertical-align: middle;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+.navigation > nav > ul {
+text-align: right;
+justify-content: space-around;
+}
+.navigation > nav > ul > a {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+.section-1 {
+background-color: lightgrey;
+display: block;
+}
+#bannerpic {
+width: 60%;
+margin: 32px 24px;
+display: inline-block;
+}
+#bannerpic > img {
+width: 100%;
+}
+#bannertext {
+width: 30%;
+text-align: right;
+display: inline-block;
+position: absolute;
+top: 50%;
+text-align: left;
+padding-left: 16px;
+}
+#start{
+padding: 8px 80px;
+background-color: gray;
+color: white;
+}
+
+.section-2 {
+width: 100%;
+display: inline-block;
+}
+.main {
+background-color: white;
+text-align: left;
+}
+#mainpic {
+margin: 32px 24px;
+display: inline-block;
+width: 60%;
+}
+#titlesec-2 {
+padding-bottom: 24px;
+font-style: bold;
+}
+.items {
+margin-top: 32px;
+display:inline-block;
+width: 423px;
+}
+.item {
+display: flex;
+}
+.items > div {
+margin: 0 auto;
+text-align: left;
+}
+.items > div > img {
+width: 35%;
+display: inline-block;
+padding: 16px;
+}
+#mainpic > img {
+width:100%;
+}
+.lastpicsection-2{
+background-color: lightgray;
+}
+
+.section-3 {
+background-color: lightgrey;
+padding: 32px;
+}
+#title {
+text-align: center;
+
+}
+.images {
+background-color: lightgrey;
+align-items: center;
+}
+.image {
+display: inline-block;
+width: 30%;
+padding-right:16px;
+padding-left: 16px;
+margin-top: 32px;
+}
+.image img {
+width: 375px;
+height: 188px;
+}
+.image-txt {
+background-color: white;
+padding-top: 16px;
+padding-left: 16px;
+padding-bottom: 24px;
+width: 360px;
+}
+
+.section-4 {
+width: 100%;
+display: block;
+}
+#vedio {
+width: 60%;
+border: 24px 16px;
+display: inline-block;
+}
+#vedio > embed {
+width: 100%;
+height: 100%;
+}
+.itemssection-4{
+width: 423px;
+height: 168px;
+position: absolute;
+margin-top: 32px;
+display:inline-block;
+}
+.itemssection-4 > div {
+margin: 0 auto;
+text-align: left;
+display: inline-block;
+}
+.itemssection-4 > div > img {
+float: left;
+width: 35%;
+display: inline-block;
+padding: 16px;
+}
+#first-4 {
+background-color: lightgray;
+}
+
+.footer {
+text-align: left;
+padding-left: 24px;
+border-top: 1px solid gray;
+}
+.final {
+display: inline-block;
+float: right;
+transform: translateY(-100%);
+}
